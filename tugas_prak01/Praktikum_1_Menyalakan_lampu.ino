@@ -9,9 +9,9 @@ void setup() {
 void loop() {
   digitalWrite(ledPin, HIGH);
   Serial.println("LED Menyala");
-  delay(200);
+  delay(1000);
   
   digitalWrite(ledPin, LOW);
   Serial.println("LED Mati");
-  delay(800);
+  delay(1000);
 }
